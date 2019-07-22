@@ -3,12 +3,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+    margin-left: auto;
+    margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     max-width: 960px;
 }
 
+header {
+    line-height: 75px;
+}
+
+h1 {
+    float: left;
+    font-size: 18pt;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+#button1, #button2, #button3 {
+    float: right;
+    line-height: 75px;
+    background-color: white;
+    border: none;
+    color: #777777;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    
+}
+
+#button1:link {
+    color: #777777;
+}
+#button1:visited {
+    color: #777777;
+}
+
 h2 {
+    clear: both;
     color: #4aaaa5;
 }
 
